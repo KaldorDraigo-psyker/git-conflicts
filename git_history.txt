@@ -1,0 +1,23 @@
+=== Git History with Conflict Resolution ===
+
+## Branch Graph:
+*   0f2d714 (HEAD -> main) resolve: Merge feature/structure with comprehensive documentation
+|\  
+| * 94dcc69 (feature/structure) feat: Add core methods section to documentation
+| * 7aab1e9 refactor: Restructure project documentation with improved section names
+* | b7288bc feat: Add additional TaskManager methods
+* | 8369abf (feature/docs) feat: Expand API documentation with detailed method descriptions
+|/  
+* d2e53fc docs: Add initial project.md with basic project description
+* 4751a7a (origin/main, origin/HEAD) Initial commit
+
+## Detailed Commit History:
+*   0f2d714 - DialingDaisy, 41 секунда назад : resolve: Merge feature/structure with comprehensive documentation
+|\  
+| * 94dcc69 - DialingDaisy, 74 секунды назад : feat: Add core methods section to documentation
+| * 7aab1e9 - DialingDaisy, 6 минут назад : refactor: Restructure project documentation with improved section names
+* | b7288bc - DialingDaisy, 2 минуты назад : feat: Add additional TaskManager methods
+* | 8369abf - DialingDaisy, 6 минут назад : feat: Expand API documentation with detailed method descriptions
+|/  
+* d2e53fc - DialingDaisy, 7 минут назад : docs: Add initial project.md with basic project description
+* 4751a7a - DialingDaisy, 9 минут назад : Initial commit
