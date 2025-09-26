@@ -14,4 +14,34 @@ The project follows a modular architecture with separate classes for different r
 
 ## API Reference
 
-The TaskManager class provides methods for adding tasks (addTask), completing tasks (completeTask), deleting tasks (deleteTask), and retrieving tasks by status (getTasks). The PersistentTaskManager adds automatic saving and loading functionality, while the StorageManager handles data export/import operations.
+### TaskManager Class
+
+The TaskManager class provides core task management functionality:
+
+- **addTask(title, description, priority)**: Creates a new task with specified parameters
+- **completeTask(id)**: Marks a task as completed by its ID
+- **deleteTask(id)**: Removes a task from the manager
+- **getTasks(status)**: Retrieves tasks filtered by status (pending, completed, all)
+- **getStats()**: Returns task statistics including completion rates
+
+### PersistentTaskManager Class
+
+Extends TaskManager with data persistence:
+
+- **setAutoSave(enabled)**: Enables or disables automatic saving
+- **forceSave()**: Manually saves data to localStorage
+- **exportToFile(filename)**: Exports all data to a JSON file
+- **importFromFile(file)**: Imports data from a JSON file
+- **createBackup()**: Creates a backup of current data
+- **restoreFromBackup(backup)**: Restores data from a backup
+
+### StorageManager Class
+
+Handles localStorage operations:
+
+- **save(data)**: Saves data to localStorage with error handling
+- **load()**: Loads data from localStorage
+- **clear()**: Clears all stored data
+- **getStorageInfo()**: Returns storage usage statistics
+- **exportData(data, filename)**: Exports data as downloadable file
+- **importData(file)**: Imports data from file
