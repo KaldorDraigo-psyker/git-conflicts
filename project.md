@@ -15,3 +15,10 @@ The project follows a modular architecture with separate classes for different r
 ## Method Documentation
 
 The TaskManager class provides methods for adding tasks (addTask), completing tasks (completeTask), deleting tasks (deleteTask), and retrieving tasks by status (getTasks). The PersistentTaskManager adds automatic saving and loading functionality, while the StorageManager handles data export/import operations.
+
+### Core Methods
+
+- **addTask()**: Creates new tasks with title, description, and priority
+- **completeTask()**: Marks tasks as completed
+- **deleteTask()**: Removes tasks from the system
+- **getTasks()**: Retrieves tasks based on status filter
