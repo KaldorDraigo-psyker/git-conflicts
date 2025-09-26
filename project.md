@@ -23,6 +23,8 @@ The TaskManager class provides core task management functionality:
 - **deleteTask(id)**: Removes a task from the manager
 - **getTasks(status)**: Retrieves tasks filtered by status (pending, completed, all)
 - **getStats()**: Returns task statistics including completion rates
+- **getTaskById(id)**: Retrieves a specific task by its ID
+- **clearAllTasks()**: Removes all tasks from the manager
 
 ### PersistentTaskManager Class
 
